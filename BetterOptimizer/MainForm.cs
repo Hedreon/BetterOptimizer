@@ -2145,7 +2145,7 @@ namespace Optimizer
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 downloadLog += "• " + app.Title + ":" + Environment.NewLine + "Link is no longer valid!" + Environment.NewLine + Environment.NewLine;
 
